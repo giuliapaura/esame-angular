@@ -21,11 +21,11 @@
         <div class="input-group-prepend ">
             <div class="input-group-text">
                 <!-- INPUT CHECKBOX -->
-                <input type="checkbox" id="check" #checkbox ngModel>
+                <input type="checkbox" #checkbox ngModel>
             </div>
         </div>
         <!-- LABEL CHECKBOX-->
-        <label class="form-check-label form-control" [class.is-checked]="checkbox.checked" for="check">
+        <label class="form-check-label form-control" [class.is-checked]="checkbox.checked">
             {{newItem}}
         </label>
 
